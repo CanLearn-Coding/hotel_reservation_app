@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel_reservation_app/screens/auth/login_page.dart';
+import 'package:hotel_reservation_app/screens/booking/payment_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoginPage(),
+      home: const PaymentPage(),
     );
   }
 }
